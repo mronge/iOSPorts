@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C0E28915C90DFE00EE1364 /* lber_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C0E28815C90DFE00EE1364 /* lber_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C0E28B15C90E2400EE1364 /* ldap_features.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C0E28A15C90E2400EE1364 /* ldap_features.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A021D168127B88F100A30E69 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = A021D166127B886400A30E69 /* version.c */; };
 		A021D16C127B897B00A30E69 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = A021D16B127B897B00A30E69 /* version.c */; };
 		A021D182127B8C4200A30E69 /* abandon.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA3611D14DED00F5A51F /* abandon.c */; };
@@ -70,10 +72,10 @@
 		A021D1BF127B8CA300A30E69 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = A021D16D127B8AED00A30E69 /* version.c */; };
 		A021D1C0127B8CA300A30E69 /* vlvctrl.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA7911D14DED00F5A51F /* vlvctrl.c */; };
 		A021D1C1127B8CA300A30E69 /* whoami.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA7A11D14DED00F5A51F /* whoami.c */; };
-		A03ADE0F11D1511A00F5A51F /* ldap.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0711D14DED00F5A51F /* ldap.h */; };
-		A03ADE1011D1511E00F5A51F /* ldap_cdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0811D14DED00F5A51F /* ldap_cdefs.h */; };
-		A03ADE1111D1512500F5A51F /* ldap_schema.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA1311D14DED00F5A51F /* ldap_schema.h */; };
-		A03ADE1211D1512500F5A51F /* ldap_utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA1411D14DED00F5A51F /* ldap_utf8.h */; };
+		A03ADE0F11D1511A00F5A51F /* ldap.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0711D14DED00F5A51F /* ldap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03ADE1011D1511E00F5A51F /* ldap_cdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0811D14DED00F5A51F /* ldap_cdefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03ADE1111D1512500F5A51F /* ldap_schema.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA1311D14DED00F5A51F /* ldap_schema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03ADE1211D1512500F5A51F /* ldap_utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA1411D14DED00F5A51F /* ldap_utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A03ADE3011D1526400F5A51F /* assert.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA2511D14DED00F5A51F /* assert.c */; };
 		A03ADE3111D1526400F5A51F /* bprint.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA2611D14DED00F5A51F /* bprint.c */; };
 		A03ADE3211D1526400F5A51F /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA2711D14DED00F5A51F /* debug.c */; };
@@ -84,7 +86,7 @@
 		A03ADE3711D1526400F5A51F /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA3111D14DED00F5A51F /* options.c */; };
 		A03ADE3811D1526400F5A51F /* sockbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA3211D14DED00F5A51F /* sockbuf.c */; };
 		A03ADE3911D1526400F5A51F /* stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADA3311D14DED00F5A51F /* stdio.c */; };
-		A03ADE3A11D1529700F5A51F /* lber.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0411D14DED00F5A51F /* lber.h */; };
+		A03ADE3A11D1529700F5A51F /* lber.h in Headers */ = {isa = PBXBuildFile; fileRef = A03ADA0411D14DED00F5A51F /* lber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A05124E01278E77F00DE46C4 /* avl.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADAAB11D14DED00F5A51F /* avl.c */; };
 		A05124E11278E77F00DE46C4 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADAAC11D14DED00F5A51F /* base64.c */; };
 		A05124E21278E77F00DE46C4 /* detach.c in Sources */ = {isa = PBXBuildFile; fileRef = A03ADAAD11D14DED00F5A51F /* detach.c */; };
@@ -141,6 +143,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C0E28815C90DFE00EE1364 /* lber_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lber_types.h; path = "openldap-2.4.22/include/lber_types.h"; sourceTree = SOURCE_ROOT; };
+		01C0E28A15C90E2400EE1364 /* ldap_features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ldap_features.h; path = "openldap-2.4.22/include/ldap_features.h"; sourceTree = SOURCE_ROOT; };
 		A021D0ED127B74A500A30E69 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "openldap-2.4.22/libraries/Makefile"; sourceTree = SOURCE_ROOT; };
 		A021D0EF127B74C400A30E69 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "openldap-2.4.22/libraries/liblber/Makefile"; sourceTree = SOURCE_ROOT; };
 		A021D0F0127B74D700A30E69 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "openldap-2.4.22/libraries/libldap/Makefile"; sourceTree = SOURCE_ROOT; };
@@ -2756,11 +2760,13 @@
 				A03ADA0311D14DED00F5A51F /* getopt-compat.h */,
 				A03ADA0411D14DED00F5A51F /* lber.h */,
 				A03ADA0511D14DED00F5A51F /* lber_pvt.h */,
+				01C0E28815C90DFE00EE1364 /* lber_types.h */,
 				A03ADA0611D14DED00F5A51F /* lber_types.hin */,
 				A03ADA0711D14DED00F5A51F /* ldap.h */,
 				A03ADA0811D14DED00F5A51F /* ldap_cdefs.h */,
 				A03ADA0911D14DED00F5A51F /* ldap_config.hin */,
 				A03ADA0A11D14DED00F5A51F /* ldap_defaults.h */,
+				01C0E28A15C90E2400EE1364 /* ldap_features.h */,
 				A03ADA0B11D14DED00F5A51F /* ldap_features.hin */,
 				A03ADA0C11D14DED00F5A51F /* ldap_int_thread.h */,
 				A03ADA0D11D14DED00F5A51F /* ldap_log.h */,
@@ -4107,6 +4113,7 @@
 				A03ADE1011D1511E00F5A51F /* ldap_cdefs.h in Headers */,
 				A03ADE1111D1512500F5A51F /* ldap_schema.h in Headers */,
 				A03ADE1211D1512500F5A51F /* ldap_utf8.h in Headers */,
+				01C0E28B15C90E2400EE1364 /* ldap_features.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4115,6 +4122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03ADE3A11D1529700F5A51F /* lber.h in Headers */,
+				01C0E28915C90DFE00EE1364 /* lber_types.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4425,6 +4433,7 @@
 					include,
 				);
 				PRODUCT_NAME = ldap;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -4443,6 +4452,7 @@
 					include,
 				);
 				PRODUCT_NAME = ldap;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 				ZERO_LINK = NO;
@@ -4462,6 +4472,7 @@
 					include,
 				);
 				PRODUCT_NAME = lber;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -4478,6 +4489,7 @@
 					include,
 				);
 				PRODUCT_NAME = lber;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};

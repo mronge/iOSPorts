@@ -7051,6 +7051,7 @@
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				PRODUCT_NAME = ssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -7066,6 +7067,7 @@
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				PRODUCT_NAME = ssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7s armv7";
 			};
 			name = Release;
 		};
@@ -7088,7 +7090,6 @@
 					openssl/include,
 					openssl/crypto,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = (
 					"-DOPENSSL_NO_GMP",
 					"-DOPENSSL_NO_JPAKE",
@@ -7122,7 +7123,6 @@
 					openssl/include,
 					openssl/crypto,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = (
 					"-DOPENSSL_NO_GMP",
 					"-DOPENSSL_NO_JPAKE",
@@ -7154,6 +7154,7 @@
 				PRODUCT_NAME = crypto;
 				PUBLIC_HEADERS_FOLDER_PATH = include/openssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -7170,13 +7171,17 @@
 				PRODUCT_NAME = crypto;
 				PUBLIC_HEADERS_FOLDER_PATH = include/openssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7s armv7";
 			};
 			name = Release;
 		};
 		A0511DEE127788ED00DE46C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -7188,7 +7193,10 @@
 		A0511DEF127788ED00DE46C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_THUMB_SUPPORT = NO;

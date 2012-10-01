@@ -1,6 +1,10 @@
 /* opensslconf.h */
 /* WARNING: Generated automatically from opensslconf.h.in by Configure. */
 
+#ifndef OPENSSL_THREADS
+#define OPENSSL_THREADS
+#endif
+
 /* OpenSSL was configured with the following options: */
 #ifndef OPENSSL_SYSNAME_MACOSX
 # define OPENSSL_SYSNAME_MACOSX

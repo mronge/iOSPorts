@@ -43,7 +43,7 @@ PACKAGE_DIR				= $(PACKAGE_TARNAME)-$(PACKAGE_VERSION)
 PACKAGE_FILEEXE				= tgz
 PACKAGE_FILE				= $(PACKAGE_DIR).$(PACKAGE_FILEEXE)
 PACKAGE_MD5				= $(PACKAGE_FILE).md5
-PACKAGE_URL				= ftp://ftp.OpenLDAP.org/pub/OpenLDAP/openldap-release/$(PACKAGE_FILE)
+PACKAGE_URL				= http://www.openldap.org/software/download/OpenLDAP/openldap-release/$(PACKAGE_FILE)
 PACKAGE_WEBSITE				= http://www.openldap.org/
 PACKAGE_LICENSE_FILE			= build-aux/LICENSE
 
